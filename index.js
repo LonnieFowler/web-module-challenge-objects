@@ -101,13 +101,13 @@ Write a function that creates an object with name, rating, feedback, add the new
   3. The function should push the following object to the array: {name: 'Daniela', rating: 5, review: 'Beautiful atmosphere and wonderful vegan options!' }
   4. should return the resulting array
 */
-let newArr = [];
+
 
 function addReview(array, name, rating, feedback){
-  array.push({name: name, rating: rating, review: feedback});
+  array.push({name, rating, feedback});
   return array;
 }
-console.log(addReview(newArr, 'Daniella', 5,'Beautiful atmosphere and wonderful vegan options!'));
+console.log(addReview(reviews, 'Daniella', 5,'great eats!'));
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Write a function to return a review based on the index of the review in the array.
 
